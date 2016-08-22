@@ -208,21 +208,24 @@ public class Ejercicio6 extends javax.swing.JFrame {
 
     private void txtPalabrasKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtPalabrasKeyTyped
         char c=evt.getKeyChar(); 
-       if(!Character.isDigit(c) && c != '.') { 
+       if(!Character.isDigit(c)){ 
               getToolkit().beep(); 
               evt.consume();
     }//GEN-LAST:event_txtPalabrasKeyTyped
     }
     private void txtCentimetrosKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCentimetrosKeyTyped
         char c=evt.getKeyChar(); 
-      if(!Character.isDigit(c) && c != '.') { 
+      if(!Character.isDigit(c)){ 
               getToolkit().beep(); 
-              evt.consume();
+              evt.consume(); 
+              
+              
+              
     }//GEN-LAST:event_txtCentimetrosKeyTyped
     } 
     private void txtColoresKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtColoresKeyTyped
         char c=evt.getKeyChar(); 
-       if(!Character.isDigit(c) && c != '.') { 
+       if(!Character.isDigit(c)){ 
               getToolkit().beep(); 
               evt.consume();
     }//GEN-LAST:event_txtColoresKeyTyped
